@@ -16,11 +16,11 @@ Status: **BUILD COMPLETE, tests green, NOT submitted, no account created.**
    submitting. Do not guess it.
 2. **Register** on https://slayy-hacks.devpost.com/ (Google sign-in first per
    browser account order; create an account if none — never surface a Vault card).
-3. **Publish the repo** — push this directory to a public GitHub repo
-   (README + setup instructions already in place). No secrets anywhere in
-   the code: the classifier is offline, no keys exist to leak.
-4. **Host the demo** — publish `web/` as a static site (GitHub Pages or any
-   static host) so the "Working Demo" link is a live, zero-login URL.
+3. **Publish the repo** — DONE 2026-11-21: https://github.com/midnightmichigan/deadlineguardian
+   (PUBLIC, pushed from this directory; no secrets — the classifier is
+   offline, no keys exist to leak).
+4. **Host the demo** — DONE 2026-11-21: https://midnightmichigan.github.io/deadlineguardian/
+   (live, HTTP 200 verified, zero-login; served from the midnightmichigan.github.io repo).
 5. **Record the demo video** — screen-only, under 3 minutes, using the script
    in §D. Nobody on camera. Upload to YouTube (unlisted) and paste the link.
 6. **Take the screenshots** — shot list in §E (take them from the live demo).
@@ -35,9 +35,9 @@ Status: **BUILD COMPLETE, tests green, NOT submitted, no account created.**
 - **Project name:** DeadlineGuardian
 - **Tagline:** Paste a bill, notice, or letter — get what it is, how urgent it is, and the one thing to do next. 100% offline.
 - **Built with:** Python 3 · JavaScript (vanilla, no frameworks) · HTML/CSS · regex NLP · pytest-style assert suites · Node.js (web-engine tests)
-- **Demo link:** [PASTE live static-host URL of web/index.html]
+- **Demo link:** https://midnightmichigan.github.io/deadlineguardian/
 - **Video link:** [PASTE unlisted YouTube link, screen-only, under 3 minutes]
-- **Code link:** [PASTE public GitHub repo URL]
+- **Code link:** https://github.com/midnightmichigan/deadlineguardian
 
 ---
 
@@ -171,9 +171,9 @@ named screen for each block.
 - **Tagline:** Paste a bill, notice, or letter — get what it is, how urgent it is, and the one thing to do next. 100% offline.
 - **Problem and solution:** Families lose money and benefits when a deadline hides in a letter that arrived with four others — a missed renewal can stop food assistance, a missed bill can cut power, a missed court date costs far more. DeadlineGuardian takes pasted paperwork text and returns one triage card: category, urgency, due dates and amounts, a day-countdown to the deadline, the signals behind the decision, and one concrete next action. It is built for people with no paid app, no fast connection, and no spare hour — it works offline, with no account and no cost.
 - **AI implementation:** See §C "AI implementation" above — rule-based NLP (weighted keyword-signal classification, regex date/amount extraction, urgency inference). No LLM and no trained ML model; disclosed by design for privacy and explainability.
-- **Working demo:** [PASTE live static-host URL] — open-and-run, no login; six sample documents built in; single and batch modes.
+- **Working demo:** https://midnightmichigan.github.io/deadlineguardian/ — open-and-run, no login; six sample documents built in; single and batch modes.
 - **Screenshots:** §E shots 1–5.
-- **Source code:** [PASTE public GitHub repo URL] — README with setup and test instructions; no secrets (offline classifier, no keys).
+- **Source code:** https://github.com/midnightmichigan/deadlineguardian — README with setup and test instructions; no secrets (offline classifier, no keys).
 - **Video:** [PASTE unlisted YouTube link] — screen-only, under 3 minutes; script in §D.
 - **Built with:** Python 3 · JavaScript (vanilla, no frameworks) · HTML/CSS · regex NLP · Node.js (web-engine tests)
 - **Team:** solo independent builder.
